@@ -9,13 +9,13 @@ public class Operadores {
 		 * Aritméticos
 		 */
 		
-//		int x = 1;
-//		int y = 2;
-//		int suma;
-//		
-//		suma=y+x;
-//		
-//		System.out.println(suma);
+		int x = 1;
+		int y = 2;
+		int suma;
+		
+		suma=y+x;
+		
+		System.out.println(suma);
 
 		
 		/*
