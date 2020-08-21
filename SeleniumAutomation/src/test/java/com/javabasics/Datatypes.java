@@ -9,17 +9,17 @@ public class Datatypes {
 		 * Datos numéricos enteros
 		 */
 		
-//		byte x;
-//		short y;
-//		int z;
-//		long a;
-//		
-//		x=127;
-//		y=32767;
-//		z=2147483647;
-//		a=9223372036854775807L;
-//		
-//		System.out.println(y);
+		byte x;
+		short y;
+		int z;
+		long a;
+		
+		x=127;
+		y=32767;
+		z=2147483647;
+		a=9223372036854775807L;
+		
+		System.out.println(y);
 
 		
 		/*
