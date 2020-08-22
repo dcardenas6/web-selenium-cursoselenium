@@ -39,14 +39,14 @@ public class Datatypes {
 		 * Datos caracteres
 		 */
 		
-		char letra1;
-		char letra2;
-		String frase;
-		
-		letra1='a';
-		letra2='\u0047';
-		frase="Hola mundo!";
-		System.out.println(frase);
+//		char letra1;
+//		char letra2;
+//		String frase;
+//		
+//		letra1='a';
+//		letra2='\u0047';
+//		frase="Hola mundo!";
+//		System.out.println(frase);
 		
 		
 		/*

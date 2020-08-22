@@ -31,16 +31,16 @@ public class Operadores {
 		 * Relacionales y condicionales
 		 */
 		
-		int num1 = 2;
-		int num2 = 4;
-		int num3 = 8;
-		int num4 = 12;
-		
-		if (num1 >= 5 || num2 >= 5){
-			System.out.println("un valor es mayor o igual a 5");
-		}else {
-			System.out.println("ninguno es 5 o más");
-		}
+//		int num1 = 2;
+//		int num2 = 4;
+//		int num3 = 8;
+//		int num4 = 12;
+//		
+//		if (num1 >= 5 || num2 >= 5){
+//			System.out.println("un valor es mayor o igual a 5");
+//		}else {
+//			System.out.println("ninguno es 5 o más");
+//		}
 		
 		
 	}
