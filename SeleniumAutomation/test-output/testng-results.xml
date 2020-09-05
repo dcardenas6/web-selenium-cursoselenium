@@ -2,64 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Launch automatedtester app]]>
+      <![CDATA[Open Browser "the automated tester" page]]>
     </line>
     <line>
-      <![CDATA[Click link chapter 1]]>
+      <![CDATA[Click Link "Chapter 1"]]>
     </line>
     <line>
-      <![CDATA[Click Radio button]]>
+      <![CDATA[Select "Selenium IDE" from dropdown]]>
     </line>
     <line>
-      <![CDATA[Select "Selenium Core" from dropdown
-]]>
-    </line>
-    <line>
-      <![CDATA[Navigate Home page clicking "Home Page" link
-]]>
-    </line>
-    <line>
-      <![CDATA[Close Browser]]>
+      <![CDATA[Validate text Assertion]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22194" started-at="2020-09-05T17:14:50Z" finished-at="2020-09-05T17:15:13Z">
+  <suite name="Default suite" duration-ms="32396" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:16:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22194" started-at="2020-09-05T17:14:50Z" finished-at="2020-09-05T17:15:13Z">
-      <class name="com.automatedtester.qa.TC001_Chapter1_ValidateDropdown">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC001_Chapter1_ValidateDropdown@534df152]" name="beforeTest" is-config="true" duration-ms="11" started-at="2020-09-05T17:14:50Z" finished-at="2020-09-05T17:14:50Z">
+    <test name="Default test" duration-ms="32396" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:16:13Z">
+      <class name="com.automatedtester.qa.TC002_Chapter1_ValidateText">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC002_Chapter1_ValidateText@534df152]" name="beforeTest" is-config="true" duration-ms="16" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:15:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC001()[pri:0, instance:com.automatedtester.qa.TC001_Chapter1_ValidateDropdown@534df152]" name="TC001" duration-ms="22158" started-at="2020-09-05T17:14:51Z" finished-at="2020-09-05T17:15:13Z">
+        <test-method status="PASS" signature="TC002()[pri:0, instance:com.automatedtester.qa.TC002_Chapter1_ValidateText@534df152]" name="TC002" duration-ms="32354" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:16:13Z">
           <reporter-output>
             <line>
-              <![CDATA[Launch automatedtester app]]>
+              <![CDATA[Open Browser "the automated tester" page]]>
             </line>
             <line>
-              <![CDATA[Click link chapter 1]]>
+              <![CDATA[Click Link "Chapter 1"]]>
             </line>
             <line>
-              <![CDATA[Click Radio button]]>
+              <![CDATA[Select "Selenium IDE" from dropdown]]>
             </line>
             <line>
-              <![CDATA[Select "Selenium Core" from dropdown
-]]>
-            </line>
-            <line>
-              <![CDATA[Navigate Home page clicking "Home Page" link
-]]>
-            </line>
-            <line>
-              <![CDATA[Close Browser]]>
+              <![CDATA[Validate text Assertion]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC001_Chapter1_ValidateDropdown@534df152]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-05T17:15:13Z" finished-at="2020-09-05T17:15:13Z">
+        </test-method> <!-- TC002 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC002_Chapter1_ValidateText@534df152]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-05T23:16:13Z" finished-at="2020-09-05T23:16:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.automatedtester.qa.TC001_Chapter1_ValidateDropdown -->
+      </class> <!-- com.automatedtester.qa.TC002_Chapter1_ValidateText -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
