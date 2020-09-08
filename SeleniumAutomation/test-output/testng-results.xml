@@ -8,22 +8,28 @@
       <![CDATA[Click Link "Chapter 1"]]>
     </line>
     <line>
-      <![CDATA[Select "Selenium IDE" from dropdown]]>
+      <![CDATA[Click button "load text to the page"]]>
     </line>
     <line>
-      <![CDATA[Validate text Assertion]]>
+      <![CDATA[Verify text box value inserted after click button "load text to the page"]]>
+    </line>
+    <line>
+      <![CDATA[Navigate Home page clicking "Home Page" link]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32396" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:16:13Z">
+  <suite name="Default suite" duration-ms="19833" started-at="2020-09-08T01:29:17Z" finished-at="2020-09-08T01:29:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32396" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:16:13Z">
-      <class name="com.automatedtester.qa.TC002_Chapter1_ValidateText">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC002_Chapter1_ValidateText@534df152]" name="beforeTest" is-config="true" duration-ms="16" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:15:40Z">
+    <test name="Default test" duration-ms="19833" started-at="2020-09-08T01:29:17Z" finished-at="2020-09-08T01:29:36Z">
+      <class name="com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPage@534df152]" name="beforeTest" is-config="true" duration-ms="13" started-at="2020-09-08T01:29:17Z" finished-at="2020-09-08T01:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC002()[pri:0, instance:com.automatedtester.qa.TC002_Chapter1_ValidateText@534df152]" name="TC002" duration-ms="32354" started-at="2020-09-05T23:15:40Z" finished-at="2020-09-05T23:16:13Z">
+        <test-method status="PASS" signature="TC003()[pri:0, instance:com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPage@534df152]" name="TC003" duration-ms="19786" started-at="2020-09-08T01:29:17Z" finished-at="2020-09-08T01:29:36Z">
           <reporter-output>
             <line>
               <![CDATA[Open Browser "the automated tester" page]]>
@@ -32,18 +38,24 @@
               <![CDATA[Click Link "Chapter 1"]]>
             </line>
             <line>
-              <![CDATA[Select "Selenium IDE" from dropdown]]>
+              <![CDATA[Click button "load text to the page"]]>
             </line>
             <line>
-              <![CDATA[Validate text Assertion]]>
+              <![CDATA[Verify text box value inserted after click button "load text to the page"]]>
+            </line>
+            <line>
+              <![CDATA[Navigate Home page clicking "Home Page" link]]>
+            </line>
+            <line>
+              <![CDATA[Close Browser]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC002 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC002_Chapter1_ValidateText@534df152]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-05T23:16:13Z" finished-at="2020-09-05T23:16:13Z">
+        </test-method> <!-- TC003 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPage@534df152]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-09-08T01:29:36Z" finished-at="2020-09-08T01:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.automatedtester.qa.TC002_Chapter1_ValidateText -->
+      </class> <!-- com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -6,24 +6,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC002_Chapter1_ValidateText {
+public class TC003_Chapter1_ValidateButtonLoadPage {
   
   @BeforeTest
   public void beforeTest() {
   }
-
+  
   @Test
-  public void TC002() throws InterruptedException {
-	  
-	  //Step 1
+  public void TC003() throws InterruptedException {
+	//Step 1
 	  Reporter.log("Open Browser \"the automated tester\" page");
 	  System.setProperty("webdriver.chrome.driver", "./Drivers/Chrome/chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
@@ -40,18 +37,14 @@ public class TC002_Chapter1_ValidateText {
 	  Thread.sleep(3000);
 	  
 	  //Step 3
-	  Reporter.log("Select \"Selenium IDE\" from dropdown");
-	  Select dd_selenium = new Select(driver.findElement(By.xpath("//select[@id='selecttype']")));
-	  dd_selenium.selectByValue("Selenium IDE");
+	  Reporter.log("Click button \"load text to the page\"");
+	  driver.findElement(By.xpath("//input[@id='secondajaxbutton']")).click();
 	  Thread.sleep(3000);
 	  
 	  //Step 4
-	  Reporter.log("Validate text Assertion");
-	  String actual = driver.findElement(By.xpath("//div[@id='html5div']")).getText();
-	  String esperado = "To be used after the AJAX section of the book";
-	  System.out.println(actual);
-	  Assert.assertEquals(actual,esperado); //si no coinciden la aplicación falla
-	  System.out.println("Texto Coincide, bien hecho!");
+	  Reporter.log("Verify text box value inserted after click button \"load text to the page\"");
+	  String texto = driver.findElement(By.xpath("//div[@id='html5div']")).getText();
+	  System.out.println(texto); //Se imprime en consola el valor del campo luego de cargar el nuevo texto
 	  
 	  //Step 5
 	  Reporter.log("Navigate Home page clicking \"Home Page\" link");
