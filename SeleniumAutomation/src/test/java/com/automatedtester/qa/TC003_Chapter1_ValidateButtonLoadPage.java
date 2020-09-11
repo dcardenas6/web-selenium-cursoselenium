@@ -43,7 +43,7 @@ public class TC003_Chapter1_ValidateButtonLoadPage {
 	  
 	  //Step 4
 	  Reporter.log("Verify text box value inserted after click button \"load text to the page\"");
-	  String texto = driver.findElement(By.xpath("//div[@id='html5div']")).getText();
+	  String texto = driver.findElement(By.xpath("//div[@id='html5div']/div")).getText();
 	  System.out.println(texto); //Se imprime en consola el valor del campo luego de cargar el nuevo texto
 	  
 	  //Step 5

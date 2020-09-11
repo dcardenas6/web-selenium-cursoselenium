@@ -47,8 +47,8 @@ public class TC002_Chapter1_ValidateText {
 	  
 	  //Step 4
 	  Reporter.log("Validate text Assertion");
-	  String actual = driver.findElement(By.xpath("//div[@id='html5div']")).getText();
-	  String esperado = "To be used after the AJAX section of the book";
+	  String actual = driver.findElement(By.xpath("//div[@id='divontheleft']")).getText();
+	  String esperado = "Assert that this text is on the page";
 	  System.out.println(actual);
 	  Assert.assertEquals(actual,esperado); //si no coinciden la aplicación falla
 	  System.out.println("Texto Coincide, bien hecho!");
