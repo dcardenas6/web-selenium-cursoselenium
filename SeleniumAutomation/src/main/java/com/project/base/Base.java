@@ -115,8 +115,19 @@ public class Base {
 	public void closeBrowser() {
 		try {
 			reporterLog("Close Browser");
+			driver.close();
 		} catch(NoSuchSessionException e) {
 			reporterLog("Closing Browser is failed");
 		}
+	}
+	
+	/**
+	 * Get Text from Object
+	 * @author duban.cardenas
+	 * @return 
+	 */
+	public String textFromObject(By locator) {
+		String assertText = driver.findElement(locator).getText();
+		return assertText;
 	}
 }
