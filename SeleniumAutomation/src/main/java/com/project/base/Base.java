@@ -130,4 +130,9 @@ public class Base {
 		String assertText = driver.findElement(locator).getText();
 		return assertText;
 	}
+	
+	public String valueFromObject(By locator) {
+		String valueText = driver.findElement(locator).getAttribute("value");
+		return valueText;
+	}
 }

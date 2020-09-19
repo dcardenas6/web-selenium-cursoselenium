@@ -5,51 +5,51 @@
       <![CDATA[Launch Browser http://book.theautomatedtester.co.uk/]]>
     </line>
     <line>
-      <![CDATA[Click Chapter 1]]>
+      <![CDATA[Click Chapter 2]]>
     </line>
     <line>
-      <![CDATA[Click button "load text to the page"]]>
+      <![CDATA[Click and validate name of button "chocolate"]]>
     </line>
     <line>
-      <![CDATA[Verify text: I have been added with a timeout]]>
+      <![CDATA[Validate name of button "chocolate"]]>
     </line>
     <line>
-      <![CDATA[Click home page]]>
+      <![CDATA[Click link "Index"]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8700" started-at="2020-09-13T01:54:43Z" finished-at="2020-09-13T01:54:52Z">
+  <suite name="Default suite" duration-ms="25537" started-at="2020-09-19T18:31:04Z" finished-at="2020-09-19T18:31:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8700" started-at="2020-09-13T01:54:43Z" finished-at="2020-09-13T01:54:52Z">
-      <class name="com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPagePOM">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPagePOM@4ae3c1cd]" name="beforeTest" is-config="true" duration-ms="3856" started-at="2020-09-13T01:54:43Z" finished-at="2020-09-13T01:54:47Z">
+    <test name="Default test" duration-ms="25537" started-at="2020-09-19T18:31:04Z" finished-at="2020-09-19T18:31:29Z">
+      <class name="com.automatedtester.qa.TC004_Chapter2_VerifyNameButtonChocolate">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.automatedtester.qa.TC004_Chapter2_VerifyNameButtonChocolate@4ae3c1cd]" name="beforeTest" is-config="true" duration-ms="3921" started-at="2020-09-19T18:31:04Z" finished-at="2020-09-19T18:31:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC003()[pri:0, instance:com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPagePOM@4ae3c1cd]" name="TC003" duration-ms="4817" started-at="2020-09-13T01:54:47Z" finished-at="2020-09-13T01:54:52Z">
+        <test-method status="PASS" signature="TC004()[pri:0, instance:com.automatedtester.qa.TC004_Chapter2_VerifyNameButtonChocolate@4ae3c1cd]" name="TC004" duration-ms="21596" started-at="2020-09-19T18:31:08Z" finished-at="2020-09-19T18:31:29Z">
           <reporter-output>
             <line>
               <![CDATA[Launch Browser http://book.theautomatedtester.co.uk/]]>
             </line>
             <line>
-              <![CDATA[Click Chapter 1]]>
+              <![CDATA[Click Chapter 2]]>
             </line>
             <line>
-              <![CDATA[Click button "load text to the page"]]>
+              <![CDATA[Click and validate name of button "chocolate"]]>
             </line>
             <line>
-              <![CDATA[Verify text: I have been added with a timeout]]>
+              <![CDATA[Validate name of button "chocolate"]]>
             </line>
             <line>
-              <![CDATA[Click home page]]>
+              <![CDATA[Click link "Index"]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC003 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPagePOM@4ae3c1cd]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-13T01:54:52Z" finished-at="2020-09-13T01:54:52Z">
+        </test-method> <!-- TC004 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.automatedtester.qa.TC004_Chapter2_VerifyNameButtonChocolate@4ae3c1cd]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-19T18:31:29Z" finished-at="2020-09-19T18:31:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.automatedtester.qa.TC003_Chapter1_ValidateButtonLoadPagePOM -->
+      </class> <!-- com.automatedtester.qa.TC004_Chapter2_VerifyNameButtonChocolate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

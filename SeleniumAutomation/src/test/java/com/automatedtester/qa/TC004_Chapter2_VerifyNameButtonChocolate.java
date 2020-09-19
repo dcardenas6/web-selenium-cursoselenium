@@ -7,48 +7,44 @@ import org.testng.annotations.Test;
 
 import com.project.base.Base;
 import com.project.base.GlobalVariables;
-import com.project.poclasses.Chapter1Page;
+import com.project.poclasses.Chapter2Page;
 import com.project.poclasses.HomePage;
 
-public class TC003_Chapter1_ValidateButtonLoadPagePOM {
+public class TC004_Chapter2_VerifyNameButtonChocolate {
 
 	WebDriver driver;
-	Base base;
 	HomePage home;
-	Chapter1Page chapter1;
-
+	Base base;
+	Chapter2Page chapter2;
+	
 	@BeforeTest
 	public void beforeTest() {
-
 		base = new Base(driver);
 		driver = base.chromedriverConnection();
 		home = new HomePage(driver);
-		chapter1 = new Chapter1Page(driver);
+		chapter2 = new Chapter2Page(driver);
 	}
 
 	@Test
-	public void TC003() {
-
-		// STEP 1
+	public void TC004() {
+		
+		//STEP 1
 		base.launchBrowser(GlobalVariables.SELENIUM_MAIN_URL);
-
-		// STEP 2
-		home.clickChapter1();
-
-		// STEP 3
-		chapter1.clickButton();
 		
-		// STEP 4
-		chapter1.verifyText("I have been added with a timeout");
+		//STEP 2
+		home.clickChapter2();
 		
-		// STEP 5
-		chapter1.navigateHomepage();
-
+		//STEP 3
+		chapter2.clickVerify();
+		chapter2.verifyText("chocolate");
+		
+		//STEP 4
+		chapter2.navigateIndex();
 	}
 
 	@AfterTest
 	public void afterTest() {
-		// STEP 6
+		//STEP 5
 		base.closeBrowser();
 	}
 
