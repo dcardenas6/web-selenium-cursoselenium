@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automatedtester.qa.TC004_Chapter2_VerifyNameButtonChocolate">
+      <class name="com.automatedtester.qa.TC001_Chapter1_ValidateDropdownPOM">
         <methods>
-          <include name="TC004"/>
-          <include name="beforeTest"/>
+          <include name="TC001"/>
           <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.automatedtester.qa.TC004_Chapter2_VerifyNameButtonChocolate -->
+      </class> <!-- com.automatedtester.qa.TC001_Chapter1_ValidateDropdownPOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

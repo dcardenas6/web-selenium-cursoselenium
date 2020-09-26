@@ -1,5 +1,7 @@
 package com.project.poclasses;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -22,9 +24,11 @@ public class HomePage extends Base{
 	/**
 	 * Click Chapter 1
 	 * @author duban.cardenas
+	 * @throws IOException 
 	 */
 	
-	public void clickChapter1() {
+	public void clickChapter1() throws IOException {
+		takeScreenshot("TC001", "Click Chapter 1");
 		reporterLog("Click Chapter 1");
 		waitForElementPresent(link_chapter1);
 		click(link_chapter1);

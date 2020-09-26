@@ -1,5 +1,7 @@
 package com.project.poclasses;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -22,12 +24,15 @@ public class Chapter1Page extends Base {
 	/**
 	 * Click Radio button
 	 * @author duban.cardenas
+	 * @throws IOException 
 	 */
 	
-	public void clickRadio() {
+	public void clickRadio() throws IOException {
+		
 		reporterLog("Click Radio button");
 		waitForElementPresent(rad_unique);
 		click(rad_unique);
+		takeScreenshot("TC001", "Click Radio Button");
 	}
 	
 	/**
